@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafapédia - Salvador Dalí</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+    body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    ul { list-style: none; padding-left: 5px; }
+    a { color:blue; text-decoration: none;}
+    nav ul {
+    background-color: #f9f9fb;
+    padding:10px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    }
+    nav ul li a{
+    padding: 10px 15px;
+    color:blue;
+    text-decoration: none;
+    }
+    nav ul li a:hover{
+    color: white;
+    background: blue;
+    border-radius: 20px 10px;
+    }    
+    .content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+    footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    text-align: center;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+    }
+    .sidebar {
+    border-right: solid 1px #cdcdcd;
+    }
+    figure {
+    text-align: center;
+    }
+    article h1 {
+        text-align: center;
+    }
+    figcaption {
+        font-family:cursive;
+        font-size: 20px;
+    }
+    blockquote{
+        background-color: bisque;
+        margin: auto;
+    }
+    q {
+        font-style: italic;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <figure id="Início"> 
+            <img src="dark_logo_white_background.jpg" width="200" alt="Logo da Rafapédia."/>
+            <figcaption>RafapédiA</figcaption>
+            <figcaption><sub>A enciclopédia do Rafa!</sub></figcaption>
+        </figure>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="wiki_dali.html">Arte</a></li>
+            <li><a href="wiki_mirror.html">Cinema</a></li>
+            <li><a href="wiki_cain.html">Literatura</a></li>
+            <li><a href="wiki_thacikovski.html">Música</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <aside class="sidebar">
+            <h2>Artigos</h2>
+            <ul>
+                <li><a href="wiki_cain.html">A mandíbula de Cain</a></li>
+                <li><a href="wiki_mirror.html">Black Mirror</a></li>
+                <li><a href="wiki_dali.html">Salvador Dalí</a></li>
+                <li><a href="wiki_thacikovski.html">Tchaikovski</a></li>
+            </ul>
+        </aside>
+        <article>
+            <h1><i>Salvador Dalí</i></h1>
+            <figure>
+                <img src="Salvador_Dali_NYWTS.jpg" width="250" alt="Foto do pintor Salvador Dalí carregando seu gato."/>
+            </figure>
+            <p>
+                Salvador Dalí i Domènech, 1º Marquês de Dalí de Púbol (Figueres, 11 de maio de 1904 - Figueres, 23 de janeiro de 1989) foi um importante pintor espanhol, conhecido pelo seu trabalho surrealista. O trabalho de Dalí chama a atenção pela incrível combinação de imagens bizarras, oníricas, com excelente qualidade plástica. Dalí foi influenciado pelos mestres do classicismo. O seu trabalho mais conhecido, A Persistência da Memória, foi concluído em 1931. Salvador Dalí teve também trabalhos artísticos no cinema, escultura, e fotografia. Colaborou com a Walt Disney no curta de animação Destino, que foi Lançado postumamente em 2003 e, ao lado de Alfred Hitchcock, no filme Spellbound. Também foi autor de poemas dentro da mesma linha surrealista.
+            </p>
+            <h2 id="Persona">Personalidade e política</h2>
+            <p>
+                A política desempenhou um papel significativo na sua emergência como um artista. Ele foi por vezes retratado como um apoiante do autoritário Francisco Franco. André Breton, líder do movimento surrealista, fez um grande esforço para dissociar o seu nome do surrealismo. A realidade é provavelmente um pouco mais complexa. Em qualquer caso, ele não era um anti-semita, pois era inclusive amigo do famoso arquiteto e designer Paulo László, que era judeu. Ele também proferiu grande admiração por Freud (a quem ele conheceu), e Albert Einstein, ambos judeus.
+            </p>
+            <h2 id="Simbolismo">Simbolismo</h2>
+            <blockquote cite="https://pt.wikipedia.org/wiki/Salvador_Dal%C3%AD">
+                "… Estou pintando quadros que me fazem morrer de alegria, estou criando com absoluta naturalidade, sem a menor preocupação estética, estou fazendo coisas que me inspiram com uma profunda emoção e estou tentando pintá-los com honestidade."
+            </blockquote>
+            <p>
+                Dalí explorou intensamente o Simbolismo em seu trabalho. Por exemplo, a marca dos relógios fundidos que aparecem inicialmente em <i>A persistência da memória</i>, sugerem teoria de Einstein de que o tempo é relativo e não fixo. A ideia de relógios simbolicamente funcionamento desta forma foi criada quando Dalí viu um pedaço de queijo Camembert derretendo em um dia quente de agosto.
+            </p>
+            <p>
+                O elefante é também uma imagem recorrente nas obras do Dalí. Ele apareceu pela primeira vez em 1944, em sua obra <i>Sonho Causado Pelo Voo de uma Abelha ao Redor de Uma Romã um Segundo Antes de Acordar</i>. Os elefantes, inspirados por Gian Lorenzo Bernini, em Roma, base da escultura de um elefante transportando um antigo obelisco. Conjugada a imagem de suas pernas quebradiças, esse comprometimento em criar um sentimento de fantasmagórico da realidade. "O elefante é uma distorção do espaço, em uma análise explica, "as suas pernas contrastam com a ideia de imponderabilidade com a estrutura."
+            </p>
+            <p>
+                O ovo é outra imagem comum na obra de Dalí, o qual expressa a ideal pré-natal e intrauterina, que aparece em <i>O grande masturbador</i> e <i>Metamorfose de Narciso</i> e assim utilizá-lo para simbolizar a esperança e a caridade. Diversos animais aparecem em todo o seu trabalho: formigas remontam à morte, decadência, e o imenso desejo sexual; o caramujo relaciona-se com a cabeça humana. Esta ideia partiu de quando avistou um caramujo em cima de uma bicicleta, perto da casa de Freud, quando se conheceram; e gafanhotos são um símbolos de desperdício e de medo. Segundo críticos de sua obra e o próprio Dalí afirma não ter tido envolvimento com drogas para a inspiração de suas pinturas, tudo teve inspiração do Onirismo, experiência de privação do sono.
+            </p>
+            <h2 id="Surrealismo">Surrealismo</h2>
+            <p>
+                André Breton acusou Dalí de defensor do "novo" e "irracional" no "Fenômeno Hitler", mas o artista rapidamente rejeitava esta alegação dizendo, "Eu nem sou hitleriano de fato, nem de intenção". No entanto, quando Francisco Franco chegou ao poder no rescaldo da Guerra Civil Espanhola, o apoio ao novo regime, entre outras coisas, levaram a sua suposta expulsão do grupo surrealista. À época André Breton cunhou o anagrama "Avida dólares" (por Salvador Dalí), que pode ser traduzido como "Ávido por dólares". Dalí replicou: <q>A única diferença entre Eu e os Surrealistas é que Eu sou o Surrealismo.</q> Os surrealistas mais radicais falavam de Dalí no passado, como se ele estivesse morto. Vários membros do grupo como Ted Joans, continuariam tratando a questão de forma extremamente dura e polêmica contra Dalí, até ao momento da sua morte.
+            </p>
+            <h2 id="Obras">Obras</h2>
+            <p>
+                Dalí produziu mais de 1500 quadros ao longo da sua carreira, e também ilustrações para livros, litografias, desenhos para cenários e trajes de teatro, um grande número de desenhos, dezenas de esculturas e vários outros projetos.
+            </p>
+        </article>
+        <section class="anchors">
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="#Persona">Personalidade e política</a></li>
+                <li><a href="#Simbolismo">Simbolismo</a></li>
+                <li><a href="#Surrealismo">Surrealismo</a></li>
+                <li><a href="#Obras">Obras</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Esta página foi editada pela última vez às 09:08 de 08/07/2023.</p>
+        <a href="#Início">Voltar ao topo</a>
+    </footer>
+</body>
+</html>
